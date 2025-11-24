@@ -1,4 +1,8 @@
-<!-- 檔案：README.md | 作者：JimmyChang | 日期：2025/11/24 -->
+<!-- 檔案：README.md | 作者：JimmyChang | 日期：2025/11/24 | Design to Learning (Just for Fun) -->
+
+# 網址
+https://jimmy01081122.github.io/Side-Project-Web-side-Tetris/
+
 # WebAssembly 俄羅斯方塊專案使用說明
 
 本專案示範如何以 C 語言撰寫俄羅斯方塊核心邏輯，透過 Emscripten 編譯為 WebAssembly，再由純 HTML/CSS/JavaScript 呈現於網頁。以下文件以「從零開始」為目標，列出所有環境設定與操作指令。
