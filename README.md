@@ -8,17 +8,17 @@
 ```
 config/                  # 遊戲預設設定 (JSON)
 public/                  # GitHub Pages 發佈用靜態資源
-  index.html             # 主網頁 (載入 WASM 與繪製 Canvas)
-  style.css              # 版面與主題樣式
-  main.js                # 與 WASM 溝通、繪製棋盤
-  config/game-settings.json (由 sync 腳本複製)
+ -- /index.html             # 主網頁 (載入 WASM 與繪製 Canvas)
+ -- /style.css              # 版面與主題樣式
+ -- /main.js                # 與 WASM 溝通、繪製棋盤
+ -- /config/game-settings.json (由 sync 腳本複製)
 scripts/
-  build-wasm.sh          # 使用 emcc 編譯 C → WASM
-  sync-config.sh         # 將設定檔複製到 public/config
+ --/ build-wasm.sh          # 使用 emcc 編譯 C → WASM
+ --/ sync-config.sh         # 將設定檔複製到 public/config
 src/c/
-  tetris.h               # 資料結構與函式宣告
-  tetris.c               # 遊戲邏輯實作
-  wasm-interface.c       # 導出給 JavaScript 使用的 API
+ -- /tetris.h               # 資料結構與函式宣告
+ -- /tetris.c               # 遊戲邏輯實作
+ -- /wasm-interface.c       # 導出給 JavaScript 使用的 API
 DESIGN.md                # 逐步設計流程
 README.md                # 本文件
 ```
