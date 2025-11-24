@@ -13,8 +13,8 @@ public/                  # GitHub Pages 發佈用靜態資源
  -- /main.js                # 與 WASM 溝通、繪製棋盤
  -- /config/game-settings.json (由 sync 腳本複製)
 scripts/
- --/ build-wasm.sh          # 使用 emcc 編譯 C → WASM
- --/ sync-config.sh         # 將設定檔複製到 public/config
+ -- /build-wasm.sh          # 使用 emcc 編譯 C → WASM
+ -- /sync-config.sh         # 將設定檔複製到 public/config
 src/c/
  -- /tetris.h               # 資料結構與函式宣告
  -- /tetris.c               # 遊戲邏輯實作
