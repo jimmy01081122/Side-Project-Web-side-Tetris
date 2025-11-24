@@ -1,0 +1,8 @@
+{
+  "defaultRows": 20,
+  "defaultCols": 10,
+  "defaultMaxDrops": 150,
+  "minSize": 5,
+  "maxRows": 40,
+  "maxCols": 20
+}

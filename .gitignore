@@ -1,0 +1,9 @@
+# 檔案：.gitignore | 作者：JimmyChang | 日期：2025/11/24
+# 說明：忽略建置輸出、依賴與雜項檔案，避免污染版本庫
+dist/
+build/
+*.wasm
+*.js.mem
+node_modules/
+.DS_Store
+*.log
