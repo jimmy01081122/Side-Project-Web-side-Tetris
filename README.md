@@ -5,7 +5,7 @@
 
 ## 1. 目錄結構
 
-```
+```bash
 config/                  # 遊戲預設設定 (JSON)
 public/                  # GitHub Pages 發佈用靜態資源
  -- /index.html             # 主網頁 (載入 WASM 與繪製 Canvas)
